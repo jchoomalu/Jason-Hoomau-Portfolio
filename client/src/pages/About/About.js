@@ -39,7 +39,7 @@ function About() {
                 <h5>
                   Seeking meaningful, fair chance employment in technology
                 </h5>
-                <p>
+                <p className="description">
                   Innovative and dedicated professional committed to ongoing
                   education and growth. I have passion for untangling intricate
                   challenges with logic and creativity. I thrive on complexity

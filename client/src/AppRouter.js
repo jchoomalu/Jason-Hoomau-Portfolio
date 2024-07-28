@@ -7,6 +7,7 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import WordSlinger from "./pages/WordSlinger";
 import SymbolSaga from "./pages/SymbolSaga";
+import Blog from "./pages/Blog";
 import SymbolSagaMapEditor from "./pages/SymbolSagaMapEditor";
 import Testimonials from "./pages/Testimonials";
 import Footer from "./components/Footer/Footer";
@@ -25,6 +26,8 @@ export const AppRouter = () => {
         <Route path="/symbolsaga" element={<SymbolSaga />} />
         <Route path="/ssmapeditor" element={<SymbolSagaMapEditor />} />
         <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/blog" element={<Blog />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>

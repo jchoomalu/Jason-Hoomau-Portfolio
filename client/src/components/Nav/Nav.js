@@ -112,6 +112,17 @@ function Navigation() {
                 Testimonials
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown
+              className="pill-dropdown"
+              title={activeProjects}
+              id="projectsDropdown"
+            >
+              {projectLinks}
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/blog">
+                Blog
+              </NavDropdown.Item>
+            </NavDropdown>
           </Container>
         </Navbar.Collapse>
       </Navbar>
